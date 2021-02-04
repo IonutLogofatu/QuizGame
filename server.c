@@ -216,7 +216,6 @@ void startJoc(void *arg, int i){
         write(tdL.cl, questionAndAnsweres[i+2], 100);
         write(tdL.cl, questionAndAnsweres[i+3], 100);
         write(tdL.cl, questionAndAnsweres[i+4], 100);
-        printf("%s\n %s       %s         %s           %s ",questionAndAnsweres[i],questionAndAnsweres[i+1],questionAndAnsweres[i+2],questionAndAnsweres[i+3],questionAndAnsweres[i+4]);
         int rez;
         read(tdL.cl, &rez, sizeof(int));
         if (rez == 1) {
